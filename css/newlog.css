@@ -1,0 +1,102 @@
+body {
+	background-color: #e0d6bc;
+}
+.form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.login::after {
+	content: '';
+    position: absolute;
+    z-index: -1;
+	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+	width: 20%; 
+	margin: 0 auto;
+	top: 56%;
+    left: 40%; /* one half of the remaining 30% */
+    height: 30px;
+}
+.forgot	::after {
+	content: '';
+    position: absolute;
+    z-index: -1;
+	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+	width: 20%; 
+	margin: 0 auto;
+	top: 49%;
+    left: 40%; /* one half of the remaining 30% */
+    height: 30px;
+}
+.signup	::after {
+	content: '';
+    position: absolute;
+    z-index: -1;
+	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+	width: 20%; 
+	margin: 0 auto;
+	top:82%;
+    left: 40%; /* one half of the remaining 30% */
+    height: 30px;
+}
+.form-signin input[type="text"],
+.form-signin input[type="email"],
+.form-signin input[type="password"] {
+	
+	background-color: #e5e6e8;
+}
+.form-signin input[type="text"]:focus,
+.form-signin input[type="email"]:focus,
+.form-signin input[type="password"]:focus {
+	z-index: 8;
+	border:none;
+	border-bottom: 2px solid #867d87;
+	background-color: #eecbf2;
+}
+.text-center ul {
+	list-style: none;
+}
+.text-center ul li a {
+
+}
+.text-center ul li a:hover{
+	text-decoration:none;
+	color: #4F3D72;
+	font-weight: 700;
+	border-bottom: 2px solid #4F3D72;
+}
+.text-center ul li a:active {
+	text-decoration:none;
+	color: #4F3D72;
+	font-weight: 700;
+	border-bottom: 2px solid #4F3D72;
+}
+#login {
+	margin-top: 30px;
+}
+#forgot {
+	margin-top: 50px;
+}
+#signup {
+	margin-top: 30px;
+}
+.tab-content {
+	margin-top: 80px;
+
+}
+.tab-pane {
+	transition: width 2s, height 2s, transform 2s;
+	border: 5px groove #f9f9f9 ;
+	max-width: 300px;
+	margin: 15px auto;
+	background-color: #d3d3e5;
+}
+.form-signin .form-control {
+	margin-bottom: 10px;
+}
+.form-signin .title {
+	font-weight: 700;
+	text-align: center;
+	overflow: hidden;
+}
